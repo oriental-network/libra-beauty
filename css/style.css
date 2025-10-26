@@ -553,11 +553,11 @@ footer h4 {
 
 /*左側ボックスの背景*/
 .list-c2 .list.image1 {
-	background: url("../images/sample4.jpg") no-repeat center center / cover;
+	background: url("../images/contact.jpg") no-repeat center center / cover;
 }
 /*右側ボックスの背景*/
 .list-c2 .list.image2 {
-	background: url("../images/sample5.jpg") no-repeat center center / cover;
+	background: url("../images/sns.jpg") no-repeat center center / cover;
 }
 
 /*h4見出し*/
@@ -702,11 +702,12 @@ footer h4 {
 
 	/*右側の英語の飾り文字*/
 	.faq h2 .kazari {
-		font-size: 20vw;	/*文字サイズ*/
+		font-size: 18vw;	/*文字サイズ*/
 		position: absolute;
 		right: 0px;
 		top: var(--space-large);
     	color: rgba(255,255,255,0.05);	/*文字色。255,255,255は白のことで、0.05は色が5%出た状態。*/
+        padding-right: 8%;
 	}
 
 	}/*追加指定ここまで*/
