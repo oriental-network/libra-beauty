@@ -553,12 +553,21 @@ footer h4 {
 
 /*左側ボックスの背景*/
 .list-c2 .list.image1 {
-	background: url("../images/contact.jpg") no-repeat center center / cover;
+	background: url("../images/service/hair-removal.png") no-repeat center center / cover;
 }
 /*右側ボックスの背景*/
 .list-c2 .list.image2 {
-	background: url("../images/sns.jpg") no-repeat center center / cover;
+	background: url("../images/service/face-waxing.png") no-repeat center center / cover;
 }
+/*右側ボックスの背景*/
+.list-c2 .list.image3 {
+	background: url("../images/service/eyebrows-waxing.png") no-repeat center center / cover;
+}
+/*右側ボックスの背景*/
+.list-c2 .list.image4 {
+	background: url("../images/service/whitening.png") no-repeat center center / cover;
+}
+
 
 /*h4見出し*/
 .list-c2 h4 {
@@ -578,7 +587,7 @@ footer h4 {
 	@media screen and (min-width:600px) {
 
 	.list-c2 h4 .main-text {
-		font-size: 4rem;	/*文字サイズ。4倍。*/
+		font-size: 2rem;	/*文字サイズ。4倍。*/
 	}
 
 	}/*追加指定ここまで*/
