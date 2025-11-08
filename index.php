@@ -1,47 +1,7 @@
-<!DOCTYPE html>
-<html lang="ja">
-
-<head>
-    <meta charset="UTF-8">
-    <title></title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="ここにサイト説明を入れます">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap" rel="stylesheet">
-</head>
-
-<body class="home">
-    <div id="container">
-        <!--▼▼▼▼▼ここから「ヘッダー」-->
-        <header>
-            <h1 id="logo">
-                <a href="index.html">
-                    <img src="images/libra-logo.png" alt="サイト名">
-                </a>
-            </h1>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#kodawari">サービス</a>
-                    </li>
-                    <li>
-                        <a href="#brand">会社概要</a>
-                    </li>
-                    <li>
-                        <a href="#koe">採用情報</a>
-                    </li>
-                    <li>
-                        <a href="#faq">店舗一覧</a>
-                    </li>
-                    <li>
-                        <a href="#faq">FC加盟はこちら</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        <!--▼▼▼▼▼ここから「スライドショー」-->
+<?php
+    require('parts.php');
+    get_header();
+?>
         <div id="svg-box">
             <div class="slide-type1">
                 <div class="slide img1">
@@ -75,6 +35,7 @@
             <!--     </defs> -->
             <!-- </svg> -->
         </div>
+
         <!--▲▲▲▲▲ここまで「スライドショー」-->
         <main>
 
@@ -221,3 +182,5 @@
             <!--▲▲▲▲▲ここまで「Google Map」-->
         </main>
         <!--▼▼▼▼▼ここから「フッター」-->
+
+<?= get_footer() ;?>
