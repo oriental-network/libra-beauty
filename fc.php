@@ -2,71 +2,72 @@
     require('parts.php');
     get_header();
 ?>
-        <main>
+        <main style="background-image: conic-gradient(#fffce7 90deg, transparent 90deg 180deg, #fffce7 180deg 270deg, transparent 270deg);background-size: 12px 12px;">
             <!--▼▼▼▼▼ここから「私たちのこだわり」-->
-            <section class="box1" id="greeting">
-                <p class="deco-text">Greeting</p>
-                <div class="text order1 blur">
-                    <h2>
-                        <span class="main-text">代表メッセージ</span>
-                        <span class="sub-text">greeting</span>
-                    </h2>
-                    <p>LIBRAは、“自分を好きになれるきっかけを届けたい”という想いから生まれた会社です。</p>
-                    <p>サロンを立ち上げた当初は、私が1人でチェアーが１つだけの小さなお店でした。思うようにいかないことばかりで、<br />
-                        技術・集客・スタッフ育成……すべてが手探りの毎日でした。<br />
-                        けれど、その中でもお客様からいただく「ありがとう」「また来たい」の言葉が、<br />
-                        どんな時も私を支えてくれました。
-                    </p>
-                    <p class="daihyo_name">代表　千田陽美</p>
+            <section class="bo1" id="fc">
+                <h1 style="margin-bottom: 10%;">加盟メリット</h1>
+                <div class="page">
+                    <img src="images/merit1.jpg" />
+                    <div class="description">
+                        <h1>1. 現場から生まれた「結果の出る仕組み」</h1>
+                        <p>
+LIBRAは実際にサロン経営を行い、数多くの成功と失敗を経験してきたからこそ、<br />
+“リアルに結果が出る仕組み”を持っています。<br />
+集客・教育・運営マニュアルなど、すべて現場の声から作り上げたノウハウを提供します。
+                        </p>
+                    </div>
                 </div>
-                <!--/.text-->
-                <div class="blur">
-                    <img src="images/daihyo.jpg" alt="" class="speed1">
+                <div class="page">
+                    <img src="images/merit2.jpg" />
+                    <div class="description">
+                        <h1>2. 開業から運営まで、徹底したサポート体制</h1>
+                        <p>
+開業準備から機材選定、スタッフ研修、補助金サポートまで、<br />
+初めての方でも安心してスタートできる環境を整えています。<br />
+開業後も月1回の定期ミーティングや個別相談を行い、<br />
+「一人にしない」伴走型のサポートを大切にしています。
+                        </p>
+                    </div>
                 </div>
-            </section>
-            <section class="faq" id="faq">
-                <h2>
-                    <span class="kazari">企業理念</span>
-                </h2>
-                <div class="text">
-                    <dl>
-                        <dt>「人を育て、美を届け、人生を変える。」</dt>
-                        <dd>
-                            私たちは、美容を通じて “心に火が灯る瞬間” をつくりたい。<br />
-                            お客様には自信というエネルギーを。スタッフには挑戦する勇気を。<br />
-                            関わるすべての人の人生が、今よりもっと輝くためのきっかけになる場所でありたい。
-                        </dd>
-                        <dt>Vision（目指す未来）</dt>
-                        <dd>
-                            美容を通じて、人と人が成長し合い、豊かな人生を共に築ける社会をつくる。<br />
-                            <br />
-                            美しさは、自信をくれる。<br />
-                            自信は、行動を変える。<br />
-                            行動は、人生を動かす。<br />
-                            <br />
-                            私たちは、そんな「人生を変える起点」として、美容というフィールドから無限の可能性を広げていきます。
-                        </dd>
-                        <dt>Mission（使命）</dt>
-                        <dd>
-                            お客様には自信と心の豊かさを、スタッフには挑戦と成長の機会を提供する。<br />
-                            <br />
-                            ・美容サービスを超えて、“自分を好きになる”体験を提供する<br />
-                            ・スタッフ全員が“自分の人生にワクワクできる”環境をつくる<br />
-                            ・スタッフ一人ひとりの夢や目標を応援し、共に高め合う職場をつくる<br />
-                        </dd>
-                        <dt>Value（行動指針・大切にする価値観）</dt>
-                        <dd>
-                            1.寄り添う心：お客様にもスタッフにも、思いやりと敬意をもって接します<br />
-                            2.挑戦と成長：現状に満足せず、学び、行動し、進化し続けます<br />
-                            3.自信を与える：接客で、相手の心が前向きになる価値を提供します<br />
-                            4.チームでつくる未来：一人ひとりの力を信じ、助け合いながら大きな目標を目指します<br />
-                            5.美しさ＝心の豊かさ：見た目の美だけでなく、心にプラスの変化を届けます
-                        </dd>
-                    </dl>
-                    <p class="btn3 white">
-                        <!-- <a href="#">View More</a> -->
-                    </p>
+                <div class="page">
+                    <img src="images/merit3.jpg" />
+                    <div class="description">
+                        <h1>3. 低コストで早期黒字化を実現できるモデル</h1>
+                        <p>
+LIBRAのFCは、初期費用150〜200万円・月ロイヤリティ10万円と、<br />低リスクで始められるビジネスモデル。<br />
+広告費をかけずに集客できる仕組みとリピーター率の高さで、<br />
+最短で黒字化を目指せます。※今後、戦略的に広告費をかける場合もあります。
+                        </p>
+                    </div>
                 </div>
+                <div class="page">
+                    <img src="images/merit4.jpg" />
+                    <div class="description">
+                        <h1>4. オーナー一人ひとりの“理想の働き方”を応援</h1>
+                        <p>
+LIBRAの「天秤＝バランス」という名前の通り、<br />
+オーナー様一人ひとりが“自分らしい働き方”を叶えられるようサポートしています。<br />
+美容を仕事にしたい方、ライフスタイルを大切にしたい方、<br />
+それぞれの理想のバランスで経営ができる仕組みです。
+                        </p>
+                    </div>
+                </div>
+                <div class="page">
+                    <img src="images/merit5.jpg" />
+                    <div class="description">
+                        <h1>5. 実績に基づく確かな信頼とブランド力</h1>
+                        <p>
+LIBRAは、直営・FC含め複数店舗を展開し、<br />
+安定した売上と高い顧客満足度を実現しています。<br />
+「結果を出すサロン」として積み上げてきた実績が、<br />
+新しいオーナー様の信頼と成功を後押しします。
+                        </p>
+                    </div>
+                </div>
+<button id="mailBtn" class="button-4">
+<a href="mailto:example@example.com?subject=お問い合わせ&body=こんにちは、問い合わせ内容はこちら...">お問い合わせはこちら</a>
+
+</button>
             </section>
 
             <!--▲▲▲▲▲ここまで「私たちのこだわり」-->

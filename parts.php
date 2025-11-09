@@ -137,6 +137,7 @@ function get_footer(){
             <script src="js/jquery.inview_set.js"></script>
             <!--このテンプレート専用のスクリプト-->
             <script src="js/main.js"></script>
+            <script src="js/additional.js"></script>
         </body>
 
         </html>';

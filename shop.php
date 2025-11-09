@@ -4,69 +4,81 @@
 ?>
         <main>
             <!--▼▼▼▼▼ここから「私たちのこだわり」-->
-            <section class="box1" id="greeting">
-                <p class="deco-text">Greeting</p>
-                <div class="text order1 blur">
-                    <h2>
-                        <span class="main-text">代表メッセージ</span>
-                        <span class="sub-text">greeting</span>
-                    </h2>
-                    <p>LIBRAは、“自分を好きになれるきっかけを届けたい”という想いから生まれた会社です。</p>
-                    <p>サロンを立ち上げた当初は、私が1人でチェアーが１つだけの小さなお店でした。思うようにいかないことばかりで、<br />
-                        技術・集客・スタッフ育成……すべてが手探りの毎日でした。<br />
-                        けれど、その中でもお客様からいただく「ありがとう」「また来たい」の言葉が、<br />
-                        どんな時も私を支えてくれました。
-                    </p>
-                    <p class="daihyo_name">代表　千田陽美</p>
+            <section class="bx1" id="shop">
+                <h1 style="margin-bottom: 10%;">店舗一覧</h1>
+                <div class="page">
+                    <div class="one-page">
+                        <img src="https://placehold.jp/640x360.png" />
+                        <div class="titles">
+                            <h1>本店心斎橋ホワイトニング</h1>
+                            <p>〒542-0086 大阪府大阪市中央区西心斎橋１丁目１０−１２ サンハイム心斎橋 301号室</p>
+                        </div>
+                    </div>
+                    <div class="one-page">
+                        <img src="https://placehold.jp/640x360.png" />
+                        <div class="titles">
+                            <h1>本店心斎橋脱毛</h1>
+                            <p>〒542-0086 大阪府大阪市中央区西心斎橋１丁目１０−１２ サンハイム心斎橋 905号室</p>
+                        </div>
+                    </div>
                 </div>
-                <!--/.text-->
-                <div class="blur">
-                    <img src="images/daihyo.jpg" alt="" class="speed1">
+                <div class="page">
+                    <div class="one-page">
+                        <img src="https://placehold.jp/640x360.png" />
+                        <div class="titles">
+                            <h1>FC心斎橋眉毛</h1>
+                            <p>〒542-0086 大阪府大阪市中央区西心斎橋１丁目１０−１２ サンハイム心斎橋 205号室</p>
+                        </div>
+                    </div>
+                    <div class="one-page">
+                        <img src="https://placehold.jp/640x360.png" />
+                        <div class="titles">
+                            <h1>FC本町</h1>
+                            <p>〒541-0056 大阪府大阪市中央区久太郎町２丁目４−１６ 創空ＫＹＵＴＡＲＯ 702号室</p>
+                        </div>
+                    </div>
                 </div>
-            </section>
-            <section class="faq" id="faq">
-                <h2>
-                    <span class="kazari">企業理念</span>
-                </h2>
-                <div class="text">
-                    <dl>
-                        <dt>「人を育て、美を届け、人生を変える。」</dt>
-                        <dd>
-                            私たちは、美容を通じて “心に火が灯る瞬間” をつくりたい。<br />
-                            お客様には自信というエネルギーを。スタッフには挑戦する勇気を。<br />
-                            関わるすべての人の人生が、今よりもっと輝くためのきっかけになる場所でありたい。
-                        </dd>
-                        <dt>Vision（目指す未来）</dt>
-                        <dd>
-                            美容を通じて、人と人が成長し合い、豊かな人生を共に築ける社会をつくる。<br />
-                            <br />
-                            美しさは、自信をくれる。<br />
-                            自信は、行動を変える。<br />
-                            行動は、人生を動かす。<br />
-                            <br />
-                            私たちは、そんな「人生を変える起点」として、美容というフィールドから無限の可能性を広げていきます。
-                        </dd>
-                        <dt>Mission（使命）</dt>
-                        <dd>
-                            お客様には自信と心の豊かさを、スタッフには挑戦と成長の機会を提供する。<br />
-                            <br />
-                            ・美容サービスを超えて、“自分を好きになる”体験を提供する<br />
-                            ・スタッフ全員が“自分の人生にワクワクできる”環境をつくる<br />
-                            ・スタッフ一人ひとりの夢や目標を応援し、共に高め合う職場をつくる<br />
-                        </dd>
-                        <dt>Value（行動指針・大切にする価値観）</dt>
-                        <dd>
-                            1.寄り添う心：お客様にもスタッフにも、思いやりと敬意をもって接します<br />
-                            2.挑戦と成長：現状に満足せず、学び、行動し、進化し続けます<br />
-                            3.自信を与える：接客で、相手の心が前向きになる価値を提供します<br />
-                            4.チームでつくる未来：一人ひとりの力を信じ、助け合いながら大きな目標を目指します<br />
-                            5.美しさ＝心の豊かさ：見た目の美だけでなく、心にプラスの変化を届けます
-                        </dd>
-                    </dl>
-                    <p class="btn3 white">
-                        <!-- <a href="#">View More</a> -->
-                    </p>
+                <div class="page">
+                    <div class="one-page">
+                        <img src="https://placehold.jp/640x360.png" />
+                        <div class="titles">
+                            <h1>FC高槻</h1>
+                            <p>〒569-0805 大阪府高槻市上田辺町６ プレミアムコート</p>
+                        </div>
+                    </div>
+                    <div class="one-page">
+                        <img src="https://placehold.jp/640x360.png" />
+                        <div class="titles">
+                            <h1>FC自由が丘</h1>
+                            <p>〒158-0083 東京都世田谷区奥沢６丁目２９−６ パルテノン自由ケ丘 ２０６</p>
+                        </div>
+                    </div>
                 </div>
+                <div class="page">
+                    <div class="one-page">
+                        <img src="https://placehold.jp/640x360.png" />
+                        <div class="titles">
+                            <h1>FC天王寺</h1>
+                            <p>〒543-0054 大阪府大阪市天王寺区南河堀町９−３４ LaCASA天王寺303</p>
+                        </div>
+                    </div>
+                    <div class="one-page">
+                        <img src="https://placehold.jp/640x360.png" />
+                        <div class="titles">
+                            <h1>FC石橋</h1>
+                            <p>coming soon ...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="page">
+                    <div class="one-page">
+                        <img src="https://placehold.jp/640x360.png" />
+                        <div class="titles">
+                            <h1>FC福岡天神</h1>
+                            <p>coming soon ...</p>
+                        </div>
+                    </div>
+
             </section>
 
             <!--▲▲▲▲▲ここまで「私たちのこだわり」-->
