@@ -6,9 +6,9 @@ echo '<!DOCTYPE html>
 
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>Libra</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="ここにサイト説明を入れます">
+    <meta name="description" content="美容を通じて “心に火が灯る瞬間” を。">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/additional.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">

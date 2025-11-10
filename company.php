@@ -24,6 +24,36 @@
                     <img src="images/daihyo.jpg" alt="" class="speed1">
                 </div>
             </section>
+            <section id="company-info">
+                <h1>会社概要</h1>
+<table>
+  <tr>
+    <th>代表取締役</th>
+    <td>千田陽美</td>
+  </tr>
+  <tr>
+    <th>事業内容</th>
+    <td>ホワイトニング事業/脱毛サロン事業/FC事業</td>
+  </tr>
+  <tr>
+    <th>設立</th>
+    <td>2024.9.9</td>
+  </tr>
+  <tr>
+    <th>所在地</th>
+    <td>〒542-0086 大阪府大阪市中央区西心斎橋１丁目１０−１２ サンハイム心斎橋 301号室</td>
+  </tr>
+  <tr>
+    <th>アクセス</th>
+    <td>心斎橋駅徒歩1分</td>
+  </tr>
+  <tr>
+    <th>Eメール</th>
+    <td>libra95official@gmail.com</td>
+  </tr>
+
+</table>
+            </section>
             <section class="faq" id="faq">
                 <h2>
                     <span class="kazari">企業理念</span>
