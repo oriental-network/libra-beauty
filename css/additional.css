@@ -3,11 +3,17 @@
   z-index: 100;
   width: 100%;
   text-align: center;
-  top: 25%;
-  font-size: 300%;
+  top: 20%;
+  font-size: 600%;
   color: #3c3c3c;
+  opacity: 0;
+  animation: fadeIn 1.5s ease forwards;
+    animation-delay: 0s;
+  animation-delay: 0.5s;
+  text-shadow: 12px 2px 5px rgba(255, 255, 255, 0.4);
+  text-align: left;
+  margin-left: 10%;
 }
-
 #greeting img{
     display: block;
     margin: 0 auto;
@@ -176,9 +182,33 @@
         width: 100%;
         margin-bottom: 20%;
     }
-    #svg-box p {
-      top: 5%;
-      font-size: 230%;
-    }
+  #svg-box p {
+    top: 0%;
+    font-size: 300%;
+    margin-left: 5%;
+  }
+}
+@media screen and (max-width: 450px) {
+  #svg-box p {
+    font-size: 200%;
+  }
+}
+@media screen and (max-width: 300px) {
+  #svg-box p {
+top: 0%;
+    font-size: 150%;
+    margin-left: 2%;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(100px); /* 少し下から */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 

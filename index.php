@@ -3,7 +3,7 @@
     get_header();
 ?>
         <div id="svg-box">
-            <p>美容を通じて”心に火が灯る”瞬間を</p>
+            <p>美容を通じて<br />”心に火が灯る”瞬間を</p>
             <div class="slide-type1">
                 <div class="slide img1">
                     <a href="#">
