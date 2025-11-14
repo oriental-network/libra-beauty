@@ -2,8 +2,8 @@
     require('parts.php');
     get_header();
 ?>
-        <main>
-            <!--▼▼▼▼▼ここから「私たちのこだわり」-->
+        <main id="service-page">
+            <div id="pagetopimg"></div>
             <section id="service" class="box1">
                 <div class="page">
                     <img src="./images/service/hair-removal.png" alt=""/>
@@ -50,7 +50,7 @@
                 <div class="page">
                     <img src="./images/service/whitening.png" alt=""/>
                     <div class="description">
-                        <h1>ホワイトニング</h1>
+                        <h1>セルフホワイトニング</h1>
                         <p>
                             歯の表面に付いた汚れを分解して落としてくれます。<br />
                             歯の痛みも伴わない+食事制限なし+施術時間30分。<br />

@@ -138,7 +138,7 @@
                             <div class="text">
                                 <h4>
                                     <span class="sub-text">Face Waxing</span>
-                                    <span class="main-text">全顔フェイスワックス</span>
+                                    <span class="main-text">フォトフェイシャル</span>
                                 </h4>
                                 <p></p>
                             </div>
@@ -160,7 +160,7 @@
                             <div class="text">
                                 <h4>
                                     <span class="sub-text">Whitening</span>
-                                    <span class="main-text">ホワイトニング</span>
+                                    <span class="main-text">セルフホワイトニング</span>
                                 </h4>
                                 <p></p>
                             </div>

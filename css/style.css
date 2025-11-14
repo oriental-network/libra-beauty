@@ -350,7 +350,7 @@ a.ddmenu::before {
 main {
 	flex: 1 0 auto;
 	overflow-x: hidden;
-	padding: 6vw 0 0;	/*上、左右、下への余白。画面幅100%＝100vwです。*/
+	padding: 0vw 0 0;	/*上、左右、下への余白。画面幅100%＝100vwです。*/
 }
 
 /*h2見出し（共通）*/
@@ -871,7 +871,7 @@ footer h4 {
 	position: relative;
 	background: #F5F4EC;	/*背景色*/
 	padding: var(--space-large);	/*ボックス内の余白。冒頭にあるspace-largeを読み込みます。*/
-	margin-top: 10vw;	/*上に空けるスペース。スライドショーとこのボックスの間のスペースです。お好みで。*/
+	margin-top: 5vw;	/*上に空けるスペース。スライドショーとこのボックスの間のスペースです。お好みで。*/
 }
 
 /*ボックス上部の大きな装飾テキスト*/
@@ -913,7 +913,6 @@ footer h4 {
 	@media screen and (min-width:600px) {
 
 	.box1 {
-		display: flex;	/*横並びにする*/
 		gap: 5vw;		/*左右の間のスペース*/
 		border-radius: 20vw 0 20vw 0;	/*角を丸くする指示。左上、右上、右下、左下への順番。*/
 	}

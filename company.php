@@ -1,58 +1,42 @@
 <?php
-    require('parts.php');
-    get_header();
+require('parts.php');
+get_header();
 ?>
         <main>
             <!--▼▼▼▼▼ここから「私たちのこだわり」-->
             <section class="box1" id="greeting">
                 <p class="deco-text">Greeting</p>
-                <div class="text order1 blur">
+                <div class="title">
                     <h2>
                         <span class="main-text">代表メッセージ</span>
                         <span class="sub-text">greeting</span>
                     </h2>
-                    <p>LIBRAは、“自分を好きになれるきっかけを届けたい”という想いから生まれた会社です。</p>
-                    <p>サロンを立ち上げた当初は、私が1人でチェアーが１つだけの小さなお店でした。思うようにいかないことばかりで、<br />
-                        技術・集客・スタッフ育成……すべてが手探りの毎日でした。<br />
-                        けれど、その中でもお客様からいただく「ありがとう」「また来たい」の言葉が、<br />
-                        どんな時も私を支えてくれました。
-                    </p>
-                    <p class="daihyo_name">代表　千田陽美</p>
+                </div>
+                <div class="greeting-part">
+                    <div class="blur">
+                        <img src="images/daihyo.jpg" alt="" class="speed1">
+                    </div>
+                    <div class="text order1 blur">
+                        <p>LIBRAは、“自分を好きになれるきっかけを届けたい”という想いから生まれた会社です。</p>
+                        <p>サロンを立ち上げた当初は、私が1人でチェアーが１つだけの小さなお店でした。思うようにいかないことばかりで、<br />
+                            技術・集客・スタッフ育成……すべてが手探りの毎日でした。<br />
+                            けれど、その中でもお客様からいただく「ありがとう」「また来たい」の言葉が、<br />
+                            どんな時も私を支えてくれました。<br />
+                            <br />
+                            LIBRAがここまで成長できたのは、まぎれもなくお客様のお声、<br />
+                            そして一緒に挑戦してくれる仲間たちの存在があったからです。<br />
+                            <br />
+                            これからも私たちは、<br />
+                            「もっとこうなりたい」という想いに寄り添い、<br />
+                            美容を通して一人ひとりの可能性を広げていける会社であり続けます。<br />
+                            <br />
+                            “美しくなること”は、ゴールではなくスタート。<br />
+                            LIBRAは、誰もが自分らしく輝ける社会を目指して歩み続けます。
+                        </p>
+                        <p class="daihyo_name"><span>株式会社 LIBRA</span><br />代表　千田陽美</p>
+                    </div>
                 </div>
                 <!--/.text-->
-                <div class="blur">
-                    <img src="images/daihyo.jpg" alt="" class="speed1">
-                </div>
-            </section>
-            <section id="company-info">
-                <h1>会社概要</h1>
-<table>
-  <tr>
-    <th>代表取締役</th>
-    <td>千田陽美</td>
-  </tr>
-  <tr>
-    <th>事業内容</th>
-    <td>ホワイトニング事業/脱毛サロン事業/FC事業</td>
-  </tr>
-  <tr>
-    <th>設立</th>
-    <td>2024.9.9</td>
-  </tr>
-  <tr>
-    <th>所在地</th>
-    <td>〒542-0086 大阪府大阪市中央区西心斎橋１丁目１０−１２ サンハイム心斎橋 301号室</td>
-  </tr>
-  <tr>
-    <th>アクセス</th>
-    <td>心斎橋駅徒歩1分</td>
-  </tr>
-  <tr>
-    <th>Eメール</th>
-    <td>libra95official@gmail.com</td>
-  </tr>
-
-</table>
             </section>
             <section class="faq" id="faq">
                 <h2>
@@ -97,6 +81,36 @@
                         <!-- <a href="#">View More</a> -->
                     </p>
                 </div>
+            </section>
+            <section id="company-info">
+                <h1>会社概要</h1>
+                <table>
+                  <tr>
+                    <th>代表取締役</th>
+                    <td>千田陽美</td>
+                  </tr>
+                  <tr>
+                    <th>事業内容</th>
+                    <td>ホワイトニング事業/脱毛サロン事業/FC事業</td>
+                  </tr>
+                  <tr>
+                    <th>設立</th>
+                    <td>2024.9.9</td>
+                  </tr>
+                  <tr>
+                    <th>所在地</th>
+                    <td>〒542-0086 大阪府大阪市中央区西心斎橋１丁目１０−１２ サンハイム心斎橋 301号室</td>
+                  </tr>
+                  <tr>
+                    <th>アクセス</th>
+                    <td>心斎橋駅徒歩1分</td>
+                  </tr>
+                  <tr>
+                    <th>Eメール</th>
+                    <td>libra95official@gmail.com</td>
+                  </tr>
+
+                </table>
             </section>
 
             <!--▲▲▲▲▲ここまで「私たちのこだわり」-->

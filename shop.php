@@ -2,18 +2,21 @@
     require('parts.php');
     get_header();
 ?>
-        <main>
+        <main id="shop-page">
+            <div id="pagetopimg"></div>
             <!--▼▼▼▼▼ここから「私たちのこだわり」-->
             <section class="bx1" id="shop">
                 <h1 style="margin-bottom: 10%;">店舗一覧</h1>
                 <div class="page">
                     <div class="one-page">
+                        <img src="images/shop/shinsaibashi.jpg" alt="" />
                         <div class="titles">
                             <h1>本店心斎橋ホワイトニング</h1>
                             <p>〒542-0086 大阪府大阪市中央区西心斎橋１丁目１０−１２ サンハイム心斎橋 301号室</p>
                         </div>
                     </div>
                     <div class="one-page">
+                        <img src="images/shop/shinsaibashi-datsumo.jpg" alt="" />
                         <div class="titles">
                             <h1>本店心斎橋脱毛</h1>
                             <p>〒542-0086 大阪府大阪市中央区西心斎橋１丁目１０−１２ サンハイム心斎橋 905号室</p>
@@ -22,6 +25,7 @@
                 </div>
                 <div class="page">
                     <div class="one-page">
+                        <img src="images/shop/shinsaibashi-fc-mayuge.jpg" alt="" />
                         <div class="titles">
                             <h1>FC心斎橋眉毛</h1>
                             <p>〒542-0086 大阪府大阪市中央区西心斎橋１丁目１０−１２ サンハイム心斎橋 205号室</p>
@@ -42,6 +46,7 @@
                         </div>
                     </div>
                     <div class="one-page">
+                        <img src="images/shop/ziyugaoka.jpg" alt="" />
                         <div class="titles">
                             <h1>FC自由が丘</h1>
                             <p>〒158-0083 東京都世田谷区奥沢６丁目２９−６ パルテノン自由ケ丘 ２０６</p>
@@ -57,7 +62,7 @@
                     </div>
                     <div class="one-page">
                         <div class="titles">
-                            <h1>FC石橋</h1>
+                            <h1>FCなんば</h1>
                             <p>coming soon ...</p>
                         </div>
                     </div>
