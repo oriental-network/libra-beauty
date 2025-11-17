@@ -553,19 +553,24 @@ footer h4 {
 
 /*左側ボックスの背景*/
 .list-c2 .list.image1 {
-	background: url("../images/service/hair-removal.png") no-repeat center center / cover;
+	background: url("../images/eyeblowwax.jpg") no-repeat center center / cover;
 }
 /*右側ボックスの背景*/
 .list-c2 .list.image2 {
-	background: url("../images/service/face-waxing.png") no-repeat center center / cover;
+	background: url("../images/service/whitening.jpg") no-repeat center center / cover;
 }
 /*右側ボックスの背景*/
 .list-c2 .list.image3 {
+	background: url("../images/merit1.jpg") no-repeat center center / cover;
+}
+
+/*右側ボックスの背景*/
+.list-c2 .list.image4 {
 	background: url("../images/service/eyebrows-waxing.png") no-repeat center center / cover;
 }
 /*右側ボックスの背景*/
-.list-c2 .list.image4 {
-	background: url("../images/service/whitening.png") no-repeat center center / cover;
+.list-c2 .list.image5 {
+	background: url("../images/service/photofacial.jpg") no-repeat center center / cover;
 }
 
 

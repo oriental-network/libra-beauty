@@ -2,8 +2,9 @@
     require('parts.php');
     get_header();
 ?>
-        <main>
+        <main id="recruit-page">
             <!--▼▼▼▼▼ここから「私たちのこだわり」-->
+            <div id="pagetopimg"></div>
             <section class="bo1" id="recruit">
                 <div id="message">
                     <h1>美容を通して、誰かの「自信が持てる瞬間」に立ち会える仕事。</h1>
@@ -36,6 +37,7 @@
                         <p>業務内容</p>
                         <p>SNS運用管理/接客/事務作業</p>
                     </div>
+                    <button class="button-2">応募はこちら</button>
                 </div>
             </section>
 

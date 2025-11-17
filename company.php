@@ -2,8 +2,9 @@
 require('parts.php');
 get_header();
 ?>
-        <main>
+        <main id="company-page">
             <!--▼▼▼▼▼ここから「私たちのこだわり」-->
+            <div id="pagetopimg"></div>
             <section class="box1" id="greeting">
                 <p class="deco-text">Greeting</p>
                 <div class="title">

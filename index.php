@@ -1,42 +1,22 @@
 <?php
-    require('parts.php');
-    get_header();
+require('parts.php');
+get_header();
 ?>
         <div id="svg-box">
-            <p>美容を通じて<br />”心に火が灯る”瞬間を</p>
-            <div class="slide-type1">
-                <div class="slide img1">
-                    <a href="#">
-                        <img src="images/slide-show/slide1.png" alt="">
-                    </a>
-                </div>
-                <div class="slide img2">
-                    <a href="#">
-                        <img src="images/slide-show/slide2.png" alt="">
-                    </a>
-                </div>
-                <div class="slide img3">
-                    <a href="#">
-                        <img src="images/slide-show/slide3.png" alt="">
-                    </a>
-                </div>
-                <!--インジケーターボタン（現在表示中ボタン）-->
-                <div class="slide-indicators">
-                </div>
-            </div>
+            <div id="rectangle"></div>
+            <p><span class="ue">美容を通じて</span><br /><span class="shita">”心に火が灯る”瞬間を</span></p>
             <!--/.slide-type1-->
             <!--回転する円形のテキストアニメーション-->
-            <!-- <img src="images/bg_text1.svg" alt="" class="animation-text spin"> -->
-            <!-- <svg width="0" height="0" viewbox="0 0 1600 900"> -->
-            <!--     <defs> -->
-            <!--         <clippath id="myClip1" clippathunits="objectBoundingBox"> -->
-            <!--             <path transform="scale(0.000625,0.001111)" d="M244.6,20v64c0,11-9,20-20,20H19.6c-11,0-20,9-20,20v756c0,11,9,20,20,20h1560c11,0,20-9,20-20V20c0-11-9-20-20-20H264.6c-11,0-20,9-20,20Z"> -->
-            <!--             </path> -->
-            <!--         </clippath> -->
-            <!--     </defs> -->
-            <!-- </svg> -->
+            <!--<img src="images/bg_text1.svg" alt="" class="animation-text spin">
+            <svg width="0" height="0" viewbox="0 0 1600 900">
+                 <defs>
+                     <clippath id="myClip1" clippathunits="objectBoundingBox">
+                         <path transform="scale(0.000625,0.001111)" d="M244.6,20v64c0,11-9,20-20,20H19.6c-11,0-20,9-20,20v756c0,11,9,20,20,20h1560c11,0,20-9,20-20V20c0-11-9-20-20-20H264.6c-11,0-20,9-20,20Z">
+                         </path>
+                     </clippath>
+                 </defs>
+             </svg>-->
         </div>
-
         <!--▲▲▲▲▲ここまで「スライドショー」-->
         <main>
 
@@ -53,7 +33,7 @@
 サブスクでも通いやすく、安心して続けられます！
 </p>
                         <p class="name">大阪市／20代女性
-                            <img src="images/koe-icon.jpg" alt="">
+                            <img src="images/zyo1.jpg" alt="">
                         </p>
                     </div>
                     <div class="list">
@@ -61,8 +41,8 @@
                         <p class="text">通い始めて2ヶ月で、同僚に『歯白くなった？』って言われるように！<br />
 コーヒー好きでも気軽にケアできるのが嬉しいです☕️<br />
 契約の説明も丁寧で、納得して始められました。</p>
-                        <p class="name">兵庫県西宮市／30代女性
-                            <img src="images/koe-icon.jpg" alt="">
+                        <p class="name">兵庫県西宮市／30代男性
+                            <img src="images/dan1.jpg" alt="">
                         </p>
                     </div>
                     <div class="list">
@@ -70,8 +50,8 @@
                         <p class="text">初めてのセルフでしたが、やり方を丁寧に教えてくれて安心でした！<br />
 清潔感のある空間でリラックスできます✨<br />
 スタッフさんの距離感もちょうどよく、無理なく通えます！</p>
-                        <p class="name">京都市／20代女性
-                            <img src="images/koe-icon.jpg" alt="">
+                        <p class="name">京都市／20代男性
+                            <img src="images/dan2.jpg" alt="">
                         </p>
                     </div>
                     <div class="list">
@@ -80,7 +60,7 @@
 歯も肌もトーンアップして、自分磨きが楽しくなりました♡<br />
 スタッフさんが親身で、無理な提案もなく信頼できます。</p>
                         <p class="name">滋賀県大津市／30代女性
-                            <img src="images/koe-icon.jpg" alt="">
+                            <img src="images/zyo2.jpg" alt="">
                         </p>
                     </div>
                     <div class="list">
@@ -89,7 +69,7 @@
 鏡を見るたび気分が上がります✨<br />
 通いやすい料金設定で、続けやすいのが嬉しい！</p>
                         <p class="name">大阪府堺市／20代女性
-                            <img src="images/koe-icon.jpg" alt="">
+                            <img src="images/zyo3.jpg" alt="">
                         </p>
                     </div>
                     <div class="list">
@@ -97,7 +77,7 @@
                         <p class="text">他のサロンで勧誘に疲れた経験があったけど、ここは本当に安心出来ます！<br />
 雰囲気もよく、毎回癒されています🌿<br />
 無理なく通えて、効果も実感しています。</p>
-                        <p class="name">兵庫県尼崎市／40代女性
+                        <p class="name">兵庫県尼崎市／40代男性
                             <img src="images/koe-icon.jpg" alt="">
                         </p>
                     </div>
@@ -126,7 +106,40 @@
                         <div class="list image1">
                             <div class="text">
                                 <h4>
-                                    <span class="sub-text">Full Body Depilation</span>
+                                    <span class="sub-text">Eyebrows</span>
+                                    <span class="main-text">眉毛ワックス</span>
+                                </h4>
+                                <p></p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="contact.html">
+                        <div class="list image2">
+                            <div class="text">
+                                <h4>
+                                    <span class="sub-text">Whitening</span>
+                                    <span class="main-text">セルフホワイトニング</span>
+                                </h4>
+                                <p></p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="list image3">
+                            <div class="text">
+                                <h4>
+                                    <span class="sub-text">FC</span>
+                                    <span class="main-text">FC事業</span>
+                                </h4>
+                                <p></p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="contact.html">
+                        <div class="list image4">
+                            <div class="text">
+                                <h4>
+                                    <span class="sub-text">Full Body</span>
                                     <span class="main-text">全身脱毛</span>
                                 </h4>
                                 <p></p>
@@ -134,33 +147,11 @@
                         </div>
                     </a>
                     <a href="#">
-                        <div class="list image2">
+                        <div class="list image5">
                             <div class="text">
                                 <h4>
                                     <span class="sub-text">Face Waxing</span>
                                     <span class="main-text">フォトフェイシャル</span>
-                                </h4>
-                                <p></p>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="contact.html">
-                        <div class="list image3">
-                            <div class="text">
-                                <h4>
-                                    <span class="sub-text">Eyebrows Waxing</span>
-                                    <span class="main-text">眉毛ワックス</span>
-                                </h4>
-                                <p></p>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div class="list image4">
-                            <div class="text">
-                                <h4>
-                                    <span class="sub-text">Whitening</span>
-                                    <span class="main-text">セルフホワイトニング</span>
                                 </h4>
                                 <p></p>
                             </div>

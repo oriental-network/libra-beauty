@@ -22,7 +22,7 @@ echo '<!DOCTYPE html>
         <header>
             <h1 id="logo">
                 <a href="index.php">
-                    <img src="images/libra-logo.png" alt="サイト名">
+                    <img src="images/LIBRA.png" alt="サイト名">
                 </a>
             </h1>
             <nav>

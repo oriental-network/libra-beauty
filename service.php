@@ -6,7 +6,7 @@
             <div id="pagetopimg"></div>
             <section id="service" class="box1">
                 <div class="page">
-                    <img src="./images/service/hair-removal.png" alt=""/>
+                    <img src="./images/service/eyebrows-waxing.png" alt=""/>
                     <div class="description">
                         <h1>全身脱毛</h1>
                         <p>
@@ -18,9 +18,9 @@
                     </div>
                 </div>
                 <div class="page">
-                    <img src="./images/service/face-waxing.png" alt=""/>
+                    <img src="./images/service/photofacial.jpg" alt=""/>
                     <div class="description">
-                        <h1>全顔フェイスワックス(パック付き)</h1>
+                        <h1>フォトフェイシャル(パック付き)</h1>
                         <p>
                             肌に優しく、老化角質除去することにより ニキビ改善に繋がります。<br />
                             お顔のトーンが 明るくなり、メイクノリが良くなります。<br />
@@ -33,7 +33,7 @@
                     </div>
                 </div>
                 <div class="page">
-                    <img src="./images/service/eyebrows-waxing.png" alt=""/>
+                    <img src="./images/service/eyeblow.jpg" alt=""/>
                     <div class="description">
                         <h1>眉毛ワックス（メイクあり）</h1>
                         <p>
@@ -48,7 +48,7 @@
                     </div>
                 </div>
                 <div class="page">
-                    <img src="./images/service/whitening.png" alt=""/>
+                    <img src="./images/service/whitening.jpg" alt=""/>
                     <div class="description">
                         <h1>セルフホワイトニング</h1>
                         <p>
