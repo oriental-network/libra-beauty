@@ -306,6 +306,11 @@ text-align: center;
   left: 10%;
 }
 }
+@media screen and (max-width: 800px) {
+    #svg-box {
+    height: 330px;
+    }
+}
 @media screen and (max-width: 450px) {
 #service .page {
   display: block;
@@ -316,6 +321,9 @@ text-align: center;
     width: 90%;
 }
 
+#svg-box {
+    height: 230px;
+}
   #svg-box p {
     font-size: 200%;
   }
