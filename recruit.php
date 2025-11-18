@@ -4,10 +4,10 @@
 ?>
         <main id="recruit-page">
             <!--▼▼▼▼▼ここから「私たちのこだわり」-->
-            <div id="pagetopimg"></div>
+            <div class="back"><div id="pagetopimg"></div></div>
             <section class="bo1" id="recruit">
                 <div id="message">
-                    <h1>美容を通して、誰かの「自信が持てる瞬間」に立ち会える仕事。</h1>
+                    <h1>美容を通して、誰かの<span>自信が持てる瞬間</span>に立ち会える仕事。</h1>
                     <h1>それが、LIBRAの一番の魅力です。</h1>
                     <p>
                         LIBRA（リブラ）は、“天秤”という意味を持ちます。<br />

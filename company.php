@@ -4,7 +4,8 @@ get_header();
 ?>
         <main id="company-page">
             <!--▼▼▼▼▼ここから「私たちのこだわり」-->
-            <div id="pagetopimg"></div>
+            <div class="back"><div id="pagetopimg"></div></div>
+
             <section class="box1" id="greeting">
                 <p class="deco-text">Greeting</p>
                 <div class="title">
@@ -87,6 +88,10 @@ get_header();
                 <h1>会社概要</h1>
                 <table>
                   <tr>
+                    <th>会社名</th>
+                    <td>株式会社LIBRA</td>
+                  </tr>
+                  <tr>
                     <th>代表取締役</th>
                     <td>千田陽美</td>
                   </tr>
@@ -96,7 +101,7 @@ get_header();
                   </tr>
                   <tr>
                     <th>設立</th>
-                    <td>2024.9.9</td>
+                    <td>2024年9月9日</td>
                   </tr>
                   <tr>
                     <th>所在地</th>

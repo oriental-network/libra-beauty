@@ -5,6 +5,7 @@ get_header();
         <div id="svg-box">
             <div id="rectangle"></div>
             <p><span class="ue">美容を通じて</span><br /><span class="shita">”心に火が灯る”瞬間を</span></p>
+            <img src="images/hogehoge.jpg" />
             <!--/.slide-type1-->
             <!--回転する円形のテキストアニメーション-->
             <!--<img src="images/bg_text1.svg" alt="" class="animation-text spin">
@@ -22,6 +23,7 @@ get_header();
 
             <section id="koe">
                 <h2 class="c">
+                    <span class="sub-text1">お客様からいただいたお喜びの声をご紹介しております</span>
                     <span class="main-text">お客様の声</span>
                     <span class="sub-text">　　VOICE　　</span>
                 </h2>
@@ -77,8 +79,8 @@ get_header();
                         <p class="text">他のサロンで勧誘に疲れた経験があったけど、ここは本当に安心出来ます！<br />
 雰囲気もよく、毎回癒されています🌿<br />
 無理なく通えて、効果も実感しています。</p>
-                        <p class="name">兵庫県尼崎市／40代男性
-                            <img src="images/koe-icon.jpg" alt="">
+                        <p class="name">兵庫県尼崎市／40代女性
+                            <img src="images/zyo5.jpg" alt="">
                         </p>
                     </div>
                     <div class="list">
@@ -87,7 +89,7 @@ get_header();
 スタッフさんが明るくて話しやすいのもポイント！！<br />
 自然体で通えるサロンに出会えてよかったです！</p>
                         <p class="name">京都府長岡京市／20代女性
-                            <img src="images/koe-icon.jpg" alt="">
+                            <img src="images/zyo4.jpg" alt="">
                         </p>
                     </div>
 
@@ -140,7 +142,7 @@ get_header();
                             <div class="text">
                                 <h4>
                                     <span class="sub-text">Full Body</span>
-                                    <span class="main-text">全身脱毛</span>
+                                    <span class="main-text">美容脱毛</span>
                                 </h4>
                                 <p></p>
                             </div>

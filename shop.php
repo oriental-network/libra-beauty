@@ -3,10 +3,10 @@
     get_header();
 ?>
         <main id="shop-page">
-            <div id="pagetopimg"></div>
+            <div class="back"><div id="pagetopimg"></div></div>
             <!--▼▼▼▼▼ここから「私たちのこだわり」-->
             <section class="bx1" id="shop">
-                <h1 style="margin-bottom: 10%;">店舗一覧</h1>
+                <h1 style="margin-bottom: 10%;" class="tenposyo">LIBRA店舗のご紹介</h1>
                 <div class="page">
                     <div class="one-page">
                         <img src="images/shop/shinsaibashi.jpg" alt="" />
@@ -20,6 +20,7 @@
                         <div class="titles">
                             <h1>本店心斎橋脱毛</h1>
                             <p>〒542-0086 大阪府大阪市中央区西心斎橋１丁目１０−１２ サンハイム心斎橋 905号室</p>
+                            <button>公式LINEの追加</button>
                         </div>
                     </div>
                 </div>

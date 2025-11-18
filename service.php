@@ -3,12 +3,13 @@
     get_header();
 ?>
         <main id="service-page">
-            <div id="pagetopimg"></div>
+            <div class="back"><div id="pagetopimg"></div></div>
             <section id="service" class="box1">
+
                 <div class="page">
-                    <img src="./images/service/eyebrows-waxing.png" alt=""/>
+                    <img src="./images/service/biyodatu.jpg" alt=""/>
                     <div class="description">
-                        <h1>全身脱毛</h1>
+                        <h1>美容脱毛</h1>
                         <p>
                             痛みの少ない脱毛機器を使用し全身の無駄毛をしっかり処理。<br />
                             <br />

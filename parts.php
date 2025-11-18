@@ -28,6 +28,9 @@ echo '<!DOCTYPE html>
             <nav>
                 <ul>
                     <li>
+                        <a href="index.php">ホーム</a>
+                    </li>
+                    <li>
                         <a href="service.php">サービス</a>
                     </li>
                     <li>

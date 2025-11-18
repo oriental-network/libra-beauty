@@ -135,6 +135,7 @@ header {
 	align-items: center;			/*垂直揃えの指定。天地中央に配置されるように。*/
 	justify-content: space-between;
 	height: 60px;					/*ヘッダーの高さ*/
+    color: black;
 }
 
 body:not(.home) header {
@@ -362,6 +363,8 @@ main h2 {
 	display: flex;
 	flex-direction: column-reverse;
 	align-items: flex-start;
+    color:black;
+
 }
 main h2.c {
 	align-items: center;	/*見出しをセンタリングする場合*/
@@ -566,7 +569,7 @@ footer h4 {
 
 /*右側ボックスの背景*/
 .list-c2 .list.image4 {
-	background: url("../images/service/eyebrows-waxing.png") no-repeat center center / cover;
+	background: url("../images/service/biyodatu.jpg") no-repeat center center / cover;
 }
 /*右側ボックスの背景*/
 .list-c2 .list.image5 {
@@ -824,6 +827,7 @@ footer h4 {
 	width: 30px;	/*カギカッコの幅。お好みで。*/
 	height: 10px;	/*カギカッコの高さ。お好みで。*/
 	border: 0.5px solid var(--primary-color);	/*線の幅、線種、varは色のことで冒頭のprimary-colorを読み込みます。*/
+    border: 7.0px solid #FF8900;
 }
 
 /*左上のカギカッコへの追加指示*/
@@ -845,6 +849,8 @@ footer h4 {
 /*faq内のh4見出し（「とても満足です。」のところ）*/
 .list-yoko-scroll h4 {
 	margin-bottom: 1rem;	/*下に１文字分のスペースを空ける*/
+    font-size: 140%;
+  color: black;
 }
 
 /*faq内のp段落（「とても満足です。」の下のテキスト）*/
@@ -947,6 +953,7 @@ footer h4 {
 
 	.box1 .text {
 		margin-bottom: 0;	/*下マージンのリセット*/
+        color: black;
 	}
 
 	}/*追加指定ここまで*/
